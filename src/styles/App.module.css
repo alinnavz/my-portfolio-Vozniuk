@@ -1,0 +1,162 @@
+/* =======================
+   GLOBAL
+======================= */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+/* LIGHT THEME */
+body.light {
+  background: #ffffff;
+  color: #111;
+}
+
+/* DARK THEME */
+body.dark {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+/* =======================
+   LAYOUT PAGES
+======================= */
+
+.cityPage,
+.futurePage,
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* =======================
+   TITLES
+======================= */
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* =======================
+   CARDS (ГОЛОВНЕ)
+======================= */
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+/* LIGHT CARD */
+body.light .card {
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #e6e6e6;
+}
+
+/* DARK CARD */
+body.dark .card {
+  background: #1e1e1e;
+  color: #f5f5f5;
+  border: 1px solid #333;
+}
+
+/* hover */
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* =======================
+   LINKS
+======================= */
+
+a {
+  color: #2b6cb0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =======================
+   PROJECTS GRID
+======================= */
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.projects div {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.03);
+}
+
+/* =======================
+   WEATHER CARD
+======================= */
+
+.weatherCard {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* =======================
+   CITY IMAGE
+======================= */
+
+.cityImage {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 15px 0;
+  display: block;
+}
+
+/* =======================
+   FUTURE TIMELINE
+======================= */
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline div {
+  padding: 12px;
+  border-radius: 10px;
+  border-left: 4px solid #4facfe;
+  background: rgba(0,0,0,0.03);
+}
+
+/* =======================
+   QUOTE
+======================= */
+
+.quote {
+  margin-top: 20px;
+  padding: 25px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}

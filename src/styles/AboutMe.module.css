@@ -1,0 +1,72 @@
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: inherit;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* CARD — ТЕПЕР ТЕМА ПРАЦЮЄ */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  color: inherit;
+}
+
+/* ВСЕ ТЕКСТОВЕ ВНУТРИ */
+.card h2,
+.card p,
+.card li {
+  color: inherit;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.projects div {
+  background: var(--card-bg);
+  padding: 10px;
+  border-radius: 8px;
+  color: inherit;
+}
+
+/* LINKS */
+a {
+  color: #4ea1ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* PHOTO */
+.photo {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
